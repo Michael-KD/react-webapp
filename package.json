@@ -2,7 +2,7 @@
   "name": "react-webapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/bundle.js",
   "scripts": {
     "start": "node public/bundle.js",
     "start-dev-server": "webpack-dev-server .",
