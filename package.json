@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server .",
+    "start": "node public/bundle.js",
+    "start-dev-server": "webpack-dev-server .",
     "build": "webpack .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
