@@ -10,6 +10,7 @@ app.get('/api', (req, res) => res.json(
   {
       name: 'Michael',
       age: 15
+  }
 ))
 
 var server = app.listen(app.get('port'), function() {
