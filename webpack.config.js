@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-    mode: "production",
-    // development
+    mode: "development",
+    // production
     entry: "./index.js",
     output: {
         path: path.resolve(__dirname, 'public'),
